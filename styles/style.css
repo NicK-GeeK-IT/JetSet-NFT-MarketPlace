@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    user-select: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    background: #1D2776;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hidden__medium {
+    display: none;
+}
+
+.hidden__mobile {
+    display: block;
+}
+
+.header__bg{
+    width: 100%;
+    background: url(../images/header-bg.svg);
+}
+.header{
+    padding: 3.5rem 5rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #1D2776;
+    box-shadow: 0 0 5px #6266DC;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar__lists-items{
+    display: flex;
+    align-items: center;
+}
+.hamburger{
+    display: none;
+}
+.list__item{
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    font-weight: 600;
+    transition: all .3s;
+    margin: 0 2rem;
+    text-align: center;
+    border-bottom: .5rem solid #1D2776;
+}
+.list__item:hover {
+    border-radius: 0.2rem;
+    border-bottom: .5rem solid #7579FF;    
+}
+.active{
+    border-radius: 0.2rem;
+    border-bottom: .5rem solid #7579FF;
+}
+.main{
+    padding: 10rem 10rem 0;
+    display: flex;
+    align-items: center;
+}
+.main__text-one{
+    color: #6266DC;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.main__text-two{
+    color: #FFFFFF;
+    font-size: 4.5rem;
+    font-weight: 600;   
+    padding-top: 1rem;
+}
+.main__text-three{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600; 
+    padding-top: 4.5rem; 
+    width: 70%;
+}
+
+button{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: transparent;
+    margin-top: 10rem;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s;
+
+}
+button:hover{
+    color: #6266DC;
+    transition: all .3s;
+}
+
+button::after{
+    content: url(../icons/arrow-circle-right.svg);
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    transition: all 1s;
+
+}
+
+/* Tokenization Section  */
+
+.tokenization__bg{
+    width: 100%;
+    background: url(../images/header-bg.svg);
+}
+.tokenization__main{
+    padding: 14rem 10rem 0;
+}
+.tokenization__text-one{
+    font-size: 4.5rem;
+    color:#FFFFFF;
+    font-weight: 600;
+}
+.tokenization__text-two{
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.tokenization__main-content{
+    padding: 12rem 35rem 0;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tokenization Section End */
+
+
+.smartplace{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14rem 10rem 0;
+}
+.smartplace__main{
+    display: flex;
+    width: 50%;
+}
+.smartplace__main img{
+    padding-left: 2rem;
+}
+.smartplace__main-icon{
+    margin-top: 3rem;
+}
+.smartplace__main-texts{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+}
+.main__text-bold{
+    font-weight: 600;
+}
+.smartplace__main-texts::before{
+    content: url(../icons/dot.svg);
+    position: absolute;
+    top: -9%;
+    left: -1.5%;
+}
+.smartplace__main-texts{
+   margin-top: 2rem;
+}
+.smartplace__main-bg{
+    width: 50%;
+    padding-top: 2rem;
+    padding-left: 15rem;
+}
+.jeto{
+    background-image: url(../images/jeto__bg.svg);
+    overflow-x: hidden;
+}
+

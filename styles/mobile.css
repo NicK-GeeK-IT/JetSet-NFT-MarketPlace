@@ -1,0 +1,146 @@
+@media screen and (max-width: 1024px) {
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .hidden__medium {
+        display: block;
+    }
+    
+    .hidden__mobile {
+        display: none;
+    }
+
+    .header__bg {
+        background-size: 100% 100%;
+    }
+
+
+
+    .navbar__lists-items {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .header__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main {
+        padding: 7rem 1rem 0;
+        width: 100%;
+        display: inline-block;
+        text-align: center !important;
+    }
+
+    .main__text-one {
+        font-size: 2.4rem;
+    }
+
+    .main__text-two {
+        font-size: 3.2rem;
+    }
+
+    .main__text-three {
+        display: none;
+    }
+    .hidden__text{
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        padding-top: 1.5rem; 
+        width: 95%;   
+    }
+    button{
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 1rem;
+        padding: 1.2rem 3.5rem 1.2rem 1rem;
+    }
+    button::after{
+        top: 18%;
+        right: 5%;    
+    }
+
+    .main__content-img {
+        width: 100%;
+    }
+    .main__content-btn{
+        display: none;
+    }
+    .hidden__content-btn{
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 2rem;
+        margin: 2.5rem auto;
+    }
+    .tokenization__main{
+        padding: 5rem 1rem 0;
+        display: inline-block;
+        text-align: center;
+    }
+    .tokenization__main-content{
+        padding: 1rem 1rem 0;
+        margin-top: 5rem;
+        display: inline-block;
+    }
+    .tokenization__text-one{
+        padding-top: 0.5rem;
+        font-size: 2.5rem;
+    }
+    .tokenization__text-two{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .imageOne{
+        display: none;
+    }
+    .imageTwo{
+        width: 100%;
+    }
+
+
+
+    .smartplace{
+        display: inline-block;
+        padding: 5rem 1rem;
+    }
+
+    .smartplace__main {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .smartplace__main img {
+        margin: 0 auto;
+    }
+
+    .smartplace__main-texts{
+        font-size: 1.2rem;
+        padding-left: 0.5rem;
+    }
+
+    .smartplace__main-icon{
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .smartplace__main-icon img{
+        width: 24%;
+    }
+
+    .smartplace__main-bg{
+        width: 100%;
+        padding: 5rem 2rem;
+    }
+
+
+
+
+
+
+
+}
